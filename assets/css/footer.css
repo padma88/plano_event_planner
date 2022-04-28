@@ -1,0 +1,29 @@
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    background: #000;
+    height: fit-content;
+    padding: 1% 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.figure-logo_footer {
+    text-align: center;
+}
+.figure-logo_footer img {
+    width: 70%;
+}
+.footer_copyright{ 
+    font-size: 0.7em;
+    padding-top: 1%
+}
+.footer_nav-main_menu {
+    padding-right: 6%;
+}
+.footer-nav_ul li{
+    margin-top: 6%;
+    font-size: 0.9em;
+}

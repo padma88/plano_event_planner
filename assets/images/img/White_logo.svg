@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="224.055" viewBox="0 0 224 224.055">
+  <g id="Group_1" data-name="Group 1" transform="translate(-378 -137.945)">
+    <path id="Path_2" data-name="Path 2" d="M0,94,93,0" transform="translate(391.5 139)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_1" data-name="Path 1" d="M0,0,93,94" transform="translate(483.5 139)" fill="none" stroke="#fff" stroke-width="3"/>
+    <line id="Line_3" data-name="Line 3" x2="57" y2="57" transform="translate(392 232)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_3" data-name="Path 3" d="M51.4-7.9,34.923,8.577-5.6,49.1" transform="translate(525.6 239.9)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_5" data-name="Path 5" d="M20.164-30.7V0H10.648V-81.223H32.965q13.027,0,20.192,6.344t7.165,17.9q0,11.555-7.958,18.918T30.869-30.7Zm0-41.914v33.3h9.969q9.855,0,15.038-4.5t5.183-12.716q0-16.086-19.031-16.086Z" transform="translate(455 260)" fill="none" stroke="#fff" stroke-width="1"/>
+    <text id="PLANO" transform="translate(423 333)" fill="none" stroke="#fff" stroke-width="1" font-size="40" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">PLANO</tspan></text>
+    <text id="Exclusive_events_Priceless_Memories" data-name="Exclusive events, Priceless Memories" transform="translate(378 358)" fill="#f8f8f8" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Exclusive events, Priceless Memories</tspan></text>
+    <line id="Line_4" data-name="Line 4" x1="10" y2="2" transform="translate(465.5 265.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" x1="10" y2="2" transform="translate(465.5 271.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Path_4" data-name="Path 4" d="M0,94,93,0" transform="translate(391.5 139)" fill="none" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>

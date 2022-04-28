@@ -1,0 +1,61 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6d90d91a;
+    width: 100%;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+/* Home Page Styles */
+.hero-section_home {
+    background: #000000bd url(../images/home/banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    position: relative;
+}
+.figure-logo_home {
+    display: flex;
+    justify-content: space-around;
+}
+.figure-logo_home img{
+    position: absolute;
+    top: 25%;
+    height: 50%;
+    width: 50%;
+}
+.hero-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.hero-nav_ul {
+    display: flex;
+    position: absolute;
+    padding: 20px 0 10px;
+    bottom: 20px;
+}
+.hero-nav_ul li {
+    margin: 0 20px;
+}
+.hero-nav_ul li a {
+  font-size: 1.3em;
+  border-bottom: 0px solid #fff;
+  transition: border-bottom-width 0.1s;
+}
+.hero-nav_ul li a:hover {
+    border-bottom-width: 4px ;
+}
+
+.section-about {
+    text-align: center;
+}
+.section-events img {
+    height: 100%;
+    width: 100%
+}
