@@ -1,1 +1,1 @@
-# html_and_css_event_planner
+An Event Planning website name as Plano with pure HTML and CSS
