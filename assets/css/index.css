@@ -1,5 +1,5 @@
 
-
+@import url("slider.css");
 header {
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,8 @@ header {
 
 /* Home Page Styles */
 .hero-section_home {
-    background: #000000bd url(../images/home/banner-1.jpg);
+    background-image: url(../images/home/banner-1.jpg);
+    background-color: #000000bd;
     background-position: center;
     background-size: cover;
     height: 65vh;
@@ -51,11 +52,19 @@ header {
 .hero-nav_ul li a:hover {
     border-bottom-width: 4px ;
 }
-
+.section-primary section {
+    padding: 2% 12%
+}
+.section-primary section:nth-of-type(2n) {
+    background-color: #d9dfdab5;
+}
 .section-about {
     text-align: center;
 }
 .section-events img {
     height: 100%;
     width: 100%
+}
+.section-testimonial .slide article {
+    padding: 0 20%
 }
