@@ -61,14 +61,6 @@ header {
 .section-about {
     text-align: center;
 }
-.section-events img {
-    height: 100%;
-    width: 100%
-}
-.section-events img {
-    border-radius: 10px;
-    box-shadow: 2px 1px 10px 0px #00000098
-}
 .section-testimonial .slide article {
     padding: 0 20%
 }
@@ -77,4 +69,16 @@ header {
     height: 100px;
     width: 100px;
     border: 1px solid #797575;
+}
+
+.div_press {
+    margin-top: 2%
+}
+.press_name {
+    font-family: fantasy;
+    font-size: 1.2em;
+    color: #797575
+}
+.section-blog {
+    margin-top: 2%
 }

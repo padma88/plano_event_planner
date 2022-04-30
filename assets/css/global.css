@@ -15,7 +15,9 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+html,body{
+  overflow-x: hidden;
+}
 body {
   font-size: 16px;
   position: relative;
@@ -34,21 +36,39 @@ a {
 }
 section {
   padding: 1% 0;
+  color: #625b52
 }
-
+h1, h2, h3, h4, h5 {
+  color: #424141e6
+}
 /* common class css*/
 
 .row{
   display: flex;
   flex-wrap: wrap;
 }
-
+.col-2{
+  width: 16.6%;
+  padding: 0 1%;
+}
+.col-3{
+  width: 25%;
+  padding: 0 1%;
+}
 .col-4{
   width: 33.3%;
-  padding-right: 3%;
-  height: max-content;
+  padding: 0 1%;
 }
 
+.col-5{
+  width: 40%;
+  padding: 0 1%;
+}
+
+.col-6{
+  width: 50%;
+  padding: 0 1%;
+}
 
 /*Padding classes*/ 
 .px-2 {
@@ -68,16 +88,91 @@ section {
 
 
 /* font classes*/
-
+.font-style-normal {
+  font-style: normal !important;
+}
+.font-style-italic {
+  font-style: italic;
+}
 
 /*Component CSS */
 
 /*
   Box-Group
 */
+.box-group {
+  padding: 10px;
+  /* max-height: 18.5em; */
+  margin: 2% 0;
+}
+.box-group p {
+  line-height: 1.5em;
+  font-size: 0.88em;
+}
+.box-group img {
+  height: 100%;
+  width: 100%;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px 0px #00000098
+}
+.box-group img:hover {
+  box-shadow: #5a4c4c98 0px 0px 7px 3px
+}
+.box-group h3 {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+/*
+  Blog-box
+*/
 
+.blog-box {
+  margin: 2%;
+  padding: 10% 4%;
+  box-shadow: 0px 0px 13px 0px #00000088;
+  text-align: center;
+  height: max-content;
+  position: relative;
+  border-radius: 2%
+}
+.blog-box h3 {
+  font-size: 1em;
+  font-weight: 500;
+  color:#424242
+}
+.blog-box p {
+  line-height: 1.9em;
+  font-size: 0.9em;
+}
+.blog-box a:hover{
+  text-decoration: underline;
+}
 
-
+.blog-box a {
+  background-color: #2c2c2e;
+  padding: 2% 5%;
+  border-radius: 50%;
+  position: relative;
+  top: 1em;
+}
+.blog-box span {
+  padding: 20% 20%;
+  border: 2px solid #fff;
+  border-width: 0 0 2px 2px;
+  transform: rotate(226deg);
+  position: absolute;
+  height: -1px;
+  top: 28%;
+  left: 17%;
+}
+.blog-box a:hover {
+  background-color: transparent;
+  border: 1px solid #2c2c2e;
+}
+.blog-box a:hover span {
+  border-color: #2c2c2e
+}
 .section_header {
   font-size: 1.5em;
   font-weight: 500;
@@ -86,8 +181,26 @@ section {
 .rounded {
   border-radius: 50%
 }
-@media screen and (min-width:2000px) {
+@media screen and (min-width:3000px) {
   body {
     font-size: 40px;
   }
+}
+@media screen and (min-width:2000px) {
+  body {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 650px) and (max-width:1000px) {
+  .col-4 {
+    width: 50%
+  }
+}
+
+@media  (max-width: 600px) {
+  .col-4 {
+    width: 100%
+  }
+  
 }
