@@ -10,7 +10,14 @@
 </head>
 
 <body onscroll="myFunction()">
-    <header id="header">
+    <header id="header-small">
+        <div id="toggle-menu" class="header-toggle" onclick="toggleSideMenu(true)">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <header id="header" class="header-large">
         <figure class="figure-logo_header">
             <img src="../assets/images/img/White_logo.svg" alt="Logo" />
         </figure>
@@ -38,6 +45,37 @@
         </nav>
     </header>
     <main class="main-area">
+        <div id="sidebar" class="sidebar">
+            <div id="close-menu" class="close-menu" onclick="toggleSideMenu(false)">
+                <div></div>
+                <div></div>
+            </div>
+            <figure class="figure-logo_sidebar">
+                <img src="../assets/images/img/White_logo.svg" alt="Logo" />
+            </figure>
+            <nav class="sidebar-nav_main_menu">
+                <ul class="sidebar-ul_main-menu">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="work.html">WORK</a>
+                    </li>
+                    <li>
+                        <a href="services.html">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACTS</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <section class="hero-section hero-section_home">
             <figure class="figure-logo_home">
                 <img src="../assets/images/img/White_logo.svg" alt="Logo" />
@@ -377,13 +415,18 @@
 
 <script>
     function myFunction() {
-        if (window.scrollY >= 350) {
+        if (window.scrollY >= 350 && window.screen.width >= 801) {
             document.getElementById("header-nav").style.display = "none";
-            document.getElementById("header").style.display = "flex";
+            document.getElementById("header").style.transform = "translateY(0px)";
         } else {
             document.getElementById("header-nav").style.display = "flex";
-            document.getElementById("header").style.display = "none";
+            document.getElementById("header").style.transform = "translateY(-15em)";
+
         }
+    }
+    function toggleSideMenu (show) {
+        document.getElementById("sidebar").style.transform = show ? "translateX(0)" : "translateX(-15em)";
+        document.getElementById("header-small").style.transform = show ? "translateY(-15em)" : "translateY(0)";
     }
 </script>
 

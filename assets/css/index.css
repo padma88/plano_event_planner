@@ -1,7 +1,7 @@
 
 @import url("slider.css");
 
-/* Home Page Styles */
+/* header Page Styles */
 .hero-section_home {
     background-image: url(../images/home/banner-1.jpg);
     background-color: #000000bd;
@@ -19,7 +19,23 @@
     top: 25%;
     height: 50%;
     width: 50%;
+    animation: rotate 3s;
+    transition: transform 3s;
 }
+.figure-logo_home img:hover {
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+
+  to {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
 .hero-nav {
     display: flex;
     justify-content: space-around;
